@@ -24,6 +24,8 @@ export interface ImagePickerOptions {
 
   /**
    * Output type, defaults to 0  (FILE_URI).
+   * Output type 0 return image path
+   * Output type 1 return 64 bit format
    */
   outputType?: number;
 }
